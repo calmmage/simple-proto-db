@@ -1,0 +1,14 @@
+Store:
+proto_class_name -> list of {id, dump of proto}
+
+whether id is unique or not is configurable.
+If it's unique there's an option to get an item from the database by id.
+If it's not unique there's an option to get all items for that id.
+
+Engines:
+1) tinydb?
+2) sqlite?
+
+Setup:
+compile all protos.
+
